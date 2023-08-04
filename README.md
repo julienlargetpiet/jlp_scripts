@@ -5,6 +5,11 @@ Small shell scripts
 
 Allow to view images from the internet through sxiv.
 
+### Requirements
+
+- wget
+- sxiv
+
 ### Usage 
 
 - bash sxiv_web.sh -i url 

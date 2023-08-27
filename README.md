@@ -23,3 +23,10 @@ Allow to view images from the internet through sxiv.
 - Create an alias in your bash profile to run the command:
   
      alias new_command="bash ~/path to the script"
+
+
+## Bright scripts
+
+Adjust brightness 
+
+- See documentation as comments directly in the scripts

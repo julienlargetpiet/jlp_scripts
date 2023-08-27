@@ -1,7 +1,5 @@
 #!/bin/sh
 
-#xsetroot -name "$(echo $(echo "CPU: "$[100-$(vmstat 1 2|tail -1|awk '{print $15}')]"%")) | $(echo TEMP: $(numfmt --from-unit=K --to-unit=M --format "%8.0f" $(cat /sys/class/thermal/thermal_zone0/temp))°C) | $(echo RAM: $(echo $(numfmt --from-unit=K --to-unit=G --format "%8.1f" $(free | awk '/^Mem:/ {print $3}'))Gi)"/"$(echo $(numfmt --to-unit=M --format "%8.1f" $(free | awk '/^Mem:/ {print $2}'))Gi)) | TODAY: $(echo $(date) | cut -d " " -f 1-5) "
-
 while :
 do
 

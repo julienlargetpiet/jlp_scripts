@@ -13,9 +13,11 @@ else
 
         a=$(bc -l <<< $a+0.05)
 
-        xrandr --output HDMI-0 --brightness $a
+        xrandr --output YOUR_SCREEN --brightness $a
 
-        #xrandr --output DP-0 --brightness $a
+        #xrandr --output YOUR_SECOND_SCREEN --brightness $a
+
+        #...
 
         echo $a > ~/bright.txt
 

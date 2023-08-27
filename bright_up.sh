@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#put your current brightness in the file ~/bright.txt
+
 a=$(cat ~/bright.txt)
 
 if [ "$a" = "1.00" ]
@@ -13,7 +15,7 @@ else
 
         xrandr --output HDMI-0 --brightness $a
 
-        xrandr --output DP-0 --brightness $a
+        #xrandr --output DP-0 --brightness $a
 
         echo $a > ~/bright.txt
 

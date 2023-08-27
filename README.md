@@ -30,3 +30,7 @@ Allow to view images from the internet through sxiv.
 Adjust brightness 
 
 - See documentation as comments directly in the scripts
+
+## Dwm_bar.sh
+
+Simple yet usefull status bar script

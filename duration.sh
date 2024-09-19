@@ -23,9 +23,9 @@ tot=0
 for i in $(ls ${name}/${extensions})
 do
         cur_val=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 ${i})
-    echo $cur_val
+    echo "$cur_val seconds"
     tot=$(python -c "print($tot + $cur_val)")
 done
 
-echo "total: $tot"
+echo "total: $tot seconds"
 

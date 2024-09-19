@@ -34,3 +34,8 @@ Adjust brightness
 ## Dwm_bar.sh
 
 Simple yet usefull status bar script
+
+## durations.sh
+
+Allow to get the duration of all media with given file extensions in a folder. 
+It also returns the sum at the end of the output.

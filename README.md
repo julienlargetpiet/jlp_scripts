@@ -44,3 +44,20 @@ It also returns the sum at the end of the output.
 
 `bash duration.sh -i directory -e *.mp3`
 
+## download.sh
+
+Is an automated tool that will download, acording to the programm provided, all the links in a given file.
+
+### Example
+
+`bash download.sh -i all_yt.txt -e yt-dlp`
+
+Will download all the youtube videos that have their link in `all_yt.txt`
+
+Or,
+
+`bash download.sh -i all_git.txt -e "git clone"`
+
+Will git clone all the repos in `all_git.txt`
+
+

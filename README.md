@@ -68,6 +68,16 @@ Located in `rm_except`
 
 Allow to remove certain files exept one or more acording to their type or not.
 
+### Requirements
+
+`python3`
+
+(Made under python `3.12.7`)
+
+- glob
+- sys
+- os
+
 ### Example
 
 `python3 except_programm.py "$(pwd)/teste_dir/{*.txt,*.jpg}"`

@@ -96,3 +96,10 @@ Will remove all files except `a.txt` and `b.jpg`
 
 Will remove all files except `b.jpg`
 
+`python3 except_programm.py "$(pwd)/teste_dir/{*.txt,b.jpg}"`
+
+Will remove all files except `b.jpg` and all `.txt` files.
+
+
+
+

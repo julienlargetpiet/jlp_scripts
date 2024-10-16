@@ -60,4 +60,25 @@ Or,
 
 Will git clone all the repos in `all_git.txt`
 
+## except_programm.py
+
+Allow to remove certain files exept one or more acording to their type or not.
+
+### Example
+
+`python3 except_programm.py "$(pwd)/teste_dir/{*.txt,*.jpg}"`
+
+Will remove nothing since all files in `teste_dir` are type `.txt` or `.jpg`
+
+`python3 except_programm.py "$(pwd)/teste_dir/*.jpg"`
+
+Will remove all files that are not type `.jpg`
+
+`python3 except_programm.py "$(pwd)/teste_dir/{a.txt,b.jpg}"`
+
+Will remove all files except `a.txt` and `b.jpg`
+
+`python3 except_programm.py "$(pwd)/teste_dir/b.jpg"`
+
+Will remove all files except `b.jpg`
 

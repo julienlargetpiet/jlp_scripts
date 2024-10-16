@@ -46,6 +46,8 @@ It also returns the sum at the end of the output.
 
 ## download.sh
 
+Located in `download`
+
 Is an automated tool that will download, acording to the programm provided, all the links in a given file.
 
 ### Example

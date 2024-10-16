@@ -62,6 +62,8 @@ Will git clone all the repos in `all_git.txt`
 
 ## except_programm.py
 
+Located in `rm_except`
+
 Allow to remove certain files exept one or more acording to their type or not.
 
 ### Example
